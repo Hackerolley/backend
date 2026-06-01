@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "decodelabs_internship_programm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hackerolley/backend.git"
+  },
+  "author": "yakub_yusuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hackerolley/backend/issues"
+  },
+  "homepage": "https://github.com/Hackerolley/backend#readme"
+}
