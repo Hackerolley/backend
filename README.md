@@ -151,16 +151,10 @@ POST /api/products/addproduct
 GET /api/products/getallproduct
 ```
 
-#### Get Product By ID
-
-```http
-GET /api/products/:id
-```
-
 #### Update Product
 
 ```http
-PUT /api/products/:id
+PUT /api/products/updateproduct/:id
 ```
 
 #### Delete Product
