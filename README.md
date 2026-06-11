@@ -55,13 +55,13 @@ backend/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/[your-username]/[repository-name].git
+git clone https://github.com/Hackerolley/backend.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd [repository-name]
+cd backend
 ```
 
 ### 3. Install Dependencies
@@ -71,7 +71,7 @@ npm install
 ```
 
 ### 4. Configure Environment Variables
-thi sproject required an enviroment variables bellow 
+this project required an enviroment variables bellow , ensure to have them all
 
 Create a `.env` file in the root directory:
 
@@ -160,7 +160,7 @@ PUT /api/products/updateproduct/:id
 #### Delete Product
 
 ```http
-DELETE /api/products/:id
+DELETE /api/products/deleteproduct/:id
 ```
 
 ## Authentication
@@ -178,7 +178,7 @@ Authorization: Bearer YOUR_JWT_TOKEN
 ```json
 {
   "success": true,
-  "message": "Operation completed successfully"
+  "message": "User logged in successfully"
 }
 ```
 
@@ -209,7 +209,7 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 **Yakub Yusuf olaide**
 
-GitHub: https://github.com/Hackerolley
+GitHub: https://github.com/Hackerolley/backend
 
 Email: yakubyusufolaide@gmail.com
 
