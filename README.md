@@ -207,7 +207,7 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 ## Author
 
-**Yakub Yusuf olaide**
+**Yakub Yusuf**
 
 GitHub: https://github.com/Hackerolley
 
