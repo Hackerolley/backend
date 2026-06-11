@@ -140,10 +140,19 @@ POST /api/users/logout
 ### Product Routes
 
 #### Create Product
-
 ```http
 POST /api/products/addproduct
 ```
+request body 
+```json
+{
+  "productName": "iPhone 15 Pro",
+  "description": "Apple iPhone 15 Pro with 256GB storage and A17 Pro chip",
+  "price": 125000,
+  "stock": 20,
+  "productImage": "https://example.com/images/iphone15pro.jpg" //
+}
+
 
 #### Get All Products
 
@@ -186,7 +195,7 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 * ✅ User Registration
 * ✅ User Login
-* ✅ User Logout
+* ✅ User Logout 
 * ✅ Product CRUD Operations
 * 🚧 Shopping Cart
 * 🚧 Order Management
